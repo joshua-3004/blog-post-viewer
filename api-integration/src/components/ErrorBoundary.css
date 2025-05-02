@@ -1,0 +1,51 @@
+/* ErrorBoundary.css */
+.error-boundary {
+    background-color: #fff3f3;
+    border: 1px solid #ffc1c1;
+    border-radius: 8px;
+    padding: 2rem;
+    text-align: center;
+    color: #e74c3c;
+    margin: 2rem 0;
+  }
+  
+  .error-boundary h2 {
+    font-size: 1.5rem;
+    margin-top: 0;
+  }
+  
+  .error-boundary details {
+    margin: 1.5rem 0;
+    text-align: left;
+    color: #555;
+  }
+  
+  .error-boundary summary {
+    cursor: pointer;
+    padding: 0.5rem 0;
+    color: #7f8c8d;
+  }
+  
+  .error-boundary pre {
+    background-color: #f8f8f8;
+    padding: 1rem;
+    border-radius: 4px;
+    overflow-x: auto;
+    font-size: 0.85rem;
+    color: #333;
+  }
+  
+  .retry-button {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .retry-button:hover {
+    background-color: #c0392b;
+  }
